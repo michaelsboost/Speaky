@@ -1,0 +1,20 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "A native Speaky standalone webview app for your Chrome Browser.",
+   "icons": {
+      "128": "assets/logo.png",
+      "16": "assets/logo.png",
+      "48": "assets/logo.png",
+      "64": "assets/logo.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "Speaky",
+   "permissions": [ "webview", "audioCapture", "videoCapture", "http://*/", "https://*/" ],
+   "short_name": "Speaky",
+   "version": "1.0.1"
+}
